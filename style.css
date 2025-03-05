@@ -2,26 +2,65 @@ header {
   display: flex;
 }
 
-.contact-position {
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 4;   
-  width: 20%;
+.contact-position img{
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border-radius: 0.65rem;
 }
 
+.section-droite img{
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 0.65rem;
+}
 
+.langues-position {
+display: flex ;
+
+}
+
+.contact-pos{
+  display: flex;
+  
+}
+.lang-pos{
+  display: flex;
+  align-items: center;
+}
 
 
 
 .header-gauche {
-    background-color: #f1f1f1;
-    padding: 20px;
+    
+    padding: 4rem;
     text-align: left;
     
 }
 .header-droite {
-    background-color: #f1f1f1;
-    padding: 20px;
+   
+    padding: 4rem;
     text-align: right;
     
 }   
+
+main {
+  display: flex;
+}
+.section-gauche {
+    
+    padding: 2rem;
+    text-align: left;
+    width: 90%;
+}
+.section-droite {
+    
+    padding: 2rem;
+    text-align: left;
+    width: 50%;
+}
+
+body {
+  background-image: url(./asset/moroccan-flower.png);
+}

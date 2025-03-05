@@ -1,0 +1,27 @@
+header {
+  display: flex;
+}
+
+.contact-position {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;   
+  width: 20%;
+}
+
+
+
+
+
+.header-gauche {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: left;
+    
+}
+.header-droite {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: right;
+    
+}   
